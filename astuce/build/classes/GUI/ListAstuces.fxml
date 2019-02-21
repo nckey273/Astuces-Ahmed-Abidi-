@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ListAstucesController">
+    <children>
+      <Label layoutX="236.0" layoutY="14.0" prefHeight="50.0" prefWidth="328.0" text="Liste des Astuces">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <ScrollPane fx:id="pane" layoutX="14.0" layoutY="59.0" prefHeight="488.0" prefWidth="747.0" />
+   </children>
+</AnchorPane>
